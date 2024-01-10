@@ -55,7 +55,7 @@ exports.SMSService = function(app) {
 
         if(status != SMS_FAILED_STATUS){
 
-          let smsQueueItem = {id : "",
+          let smsQueueItem = {id : uniqueId,
               message: request.message.text,
               addresses: request.addresses}
 
