@@ -49,3 +49,5 @@ Pasos:
   pm2 list --> Lista los procesos configurados y su status actual.
   pm2 monit --> Monitoreo en tiempo real del CPU y memoria de cada instancia en ejecución.
   ```
+
+8. Vista en RabbitMQ Interfaz (http://{IP_SERVIDOR}:15672/). (Usuario inconcertadm / inc0nc3rt)
